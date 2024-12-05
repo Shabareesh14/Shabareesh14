@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+var n=prompt("Enter a value");
+function getSum(n){
+	var sum=0;
+	for(;n!=0;){
+		sum=sum + n %10;
+		n= parseInt(n/10);
+	}
+return sum;
+}
+console.log(getSum(n));
+
+</script>
+
+
+</body>
+</html>
+

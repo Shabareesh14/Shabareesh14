@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Weekly Exam</title>
+	</head>
+	<body>
+	<script>
+		/*function sumMul(n,m){
+			if(n <= 0 || m <= 0){
+				console.log("Invalid")
+			}
+			
+			let sum = 0;
+			for(let i = n; i < m; i += n){
+				sum += i;
+			}
+			return sum;
+		}
+		console.log(sumMul(2,9));
+		console.log(sumMul(3,13));
+		console.log(sumMul(4,123));
+		console.log(sumMul(4,-7));
+		
+		const arr = [1,2,2,3,4,4,5,5];
+
+		const unquieArrays = [...new Set(arr)];
+		console.log(unquieArrays);*/
+		
+		/*function sumOfDifference(arr1){
+			arr1.sort((a,b) => b-a);
+			
+			let sum = 0;
+			for(let i = 0; i < arr1.length-1; i++){
+				sum += arr1[i] - arr1[i+1];
+			}
+			return sum;
+		}
+		console.log(sumOfDifference([2,1,10,67]));*/
+		
+		function sumOfDifference(arr2){
+			arr2.sort((a,b) => b-a);
+			
+			return arr2[0]+arr2[1];
+		}
+		console.log(sumOfDifference([2,2,23,19,99]));
+		
+		/*function positionOfAlphabet(letter){
+			let alphabets = "abcdefghijklmnopqrstuvwxyz";
+			
+			for(let i = 0; i < alphabets.length; i++){
+				if(alphabets[i] === letter){
+				return `Position of the alphabets : ${i + 1}`
+				}
+			}
+		}
+		console.log(positionOfAlphabet("z"));*/ 
+		
+		
+	</script>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+.response{
+	height:200px;
+	width:150px;
+	text-align:center;
+	margin:auto;
+	background:Blue;
+	color:white;
+	font-family:arial;
+}
+
+.response h4{
+	color:lightblue;
+	margin-bottom:20px;
+}
+
+.response1{
+	height:200px;
+	width:150px;
+	text-align:center;
+	margin:10px auto;
+	background:lightblue;
+	color:darkred;
+	font-family:Cursive;
+}
+
+.response1 h4{
+	color:red;
+	margin-bottom:20px;
+}
+

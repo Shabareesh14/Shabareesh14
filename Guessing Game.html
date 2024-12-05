@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <script src="Guessing Game.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(25, 143, 84);
+        }
+        h1 {
+            margin: auto;
+            text-align: center;
+            height: 50px;
+            width: 200px;
+            color: cornflowerblue;
+            background-color: darkred;
+            font-family: cursive;
+        }
+
+        p{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        input[type=number]{
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+
+        label{
+            margin-left: 780px;
+            color: blue;
+            font-size: 20px;
+        }
+
+        button{
+            margin-top: 20px;
+            margin-left: 950px;
+            padding: 2px;
+            font-size: 14px;
+            background-color: rgb(46, 18, 97);
+            color: greenyellow;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guessing Game</h1>
+    <p>The Number is Between 1 to 100</p>
+    <label>Enter the input:</label><input type="number" id="number" placeholder="Guess the number"><br>
+        <button onclick="guessNumber()">Submit</button>
+        <p id="result"></p>
+        <p id="cresult"></p>
+</body>
+
+</html>

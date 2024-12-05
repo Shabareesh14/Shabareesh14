@@ -1,0 +1,39 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>Day and Date</title>
+			<link rel="stylesheet" href="Day and Date.css">
+			<h1>Day & Month</h1>
+		</head>
+			<body>
+			
+	<div class="days">
+				<button onclick = "displayDay()" id="time">change day</button>
+				<button onclick = "displayMonth()" id="mon">change month</button>
+					
+						<p id="day">Days</p>
+						<p id="month">Months</p>
+	</div>
+	
+
+				<script>
+						var a = 0;
+						var b = 0;
+					function displayDay(){
+						let day = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+						document.getElementById("day").innerText = day[a%7];
+						a = a+1;
+					}	
+						var b = 0;
+					function displayMonth() {
+						let month = ["January","Febraury","March","April","May","June","July","August","September","October","November","December"]
+							document.getElementById("month").innerText = month[b]
+				
+				if(b==11) return b=0;
+				else return b = b+1;
+			}	 
+
+			
+				</script>
+			</body>
+	</html>

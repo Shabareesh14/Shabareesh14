@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.parent{
+	height:300px;
+	width:300px;
+	border: 2px solid;
+	margin:auto;
+	}
+
+.child{
+	height:50px;
+	width:50px;
+	border: 2px solid blue;
+	
+
+}
+
+.c1{
+	background-color:black;
+	float: right;
+	
+}
+
+.c2{
+	background-color:red;
+	float: right;
+
+}
+
+.c3{
+	background-color:green;
+	
+}
+
+.c4{
+	background-color:blue;
+	
+	
+}

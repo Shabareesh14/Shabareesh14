@@ -1,0 +1,52 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+
+	function isDivisibleBy11(number){
+		let oddSum = 0;
+		let evenSum = 0;
+		let isOddPosition = true;
+
+while(number > 0){
+	let digit = number % 10;
+
+		if(isOddPosition){
+			oddSum += digit;
+	}
+		else{
+			evenSum += digit;
+	}
+		number = Math.floor(number/10);
+		
+  }
+	let difference = Math.abs(oddSum - evenSum);
+	
+	return difference % 11 === 0;
+}
+console.log(isDivisibleBy11(4070));
+
+</script>
+
+</body>
+</html>
+
+var arr=[10,5,20,50,60,100]
+var temp;
+
+for(i=0;i<arr.length;i++){
+    var minPos=i
+    for(j=i;j<arr.length;j++){
+         if(arr[minPos]>arr[j]){
+         minPos = j;
+         }
+    }
+    
+    temp = arr[i]
+    arr[i]=arr[minPos]
+    arr[minPos]=temp
+}
+console.log(arr);
+

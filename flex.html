@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Flex topic</title>
+</head>
+<body>
+
+  <div class="container-1">
+
+	<div class="box-1">
+		<h2>Box 1</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+
+	<div class="box-2">
+		<h2>Box 2</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+
+	<div class="box-3">
+		<h2>Box 3</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+	</div>
+
+	 <div class="container-2">
+
+	<div class="box-11">
+		<h2>Box 1</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+
+	<div class="box-11">
+		<h2>Box 2</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+
+	<div class="box-11">
+		<h2>Box 3</h2>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+		<p>A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs.</p>
+	</div>
+  
+  </div>
+
+		
+<style>
+	.container-1 div , .container-2 div
+    {
+	  border:2px #aaa solid;
+	  padding:10px;
+    }
+
+	@media(min-width:468px){
+    .container-1 
+	  {
+	  display:flex;
+	 //align-items:center;
+	  //flex-direction:column;
+	  }
+
+	.container-2{
+	    display:flex;
+	    justify-content:space-around;
+	    } }
+	    
+	   .box-11{
+	     width:25%
+	     }
+
+    .box-1{
+	      flex:2;
+	      order:2
+      }
+
+    .box-2{
+	      flex:1;
+	       order:1
+      }
+
+    .box-3{
+	      flex:1;
+	      order:3
+      }
+
+</style>
+
+</body>
+</html>

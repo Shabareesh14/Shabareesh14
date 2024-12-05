@@ -1,0 +1,35 @@
+<!Doctype html>
+	<html>
+		<head>
+			<title>Count</title>
+			
+		</head>
+			<body>
+			
+			<script>
+					var str = prompt("Enter a String:");
+					var char=prompt("Enter a character");
+					let count=0;
+
+					for(let i = 0; i<str.length; i++){
+					if(str[i] == char){
+					count++
+			}	
+				}
+				console.log(str.length - str.replaceAll(char, "").length);	
+
+			
+				</script>
+			</body>
+	</html>
+
+var s = prompt("Enter a String:");
+var s1 = prompt("Enter a Character:");
+var count=0;
+
+for(let i = 0; i < s.length; i++){
+    if(s[i] == s1){
+        count++
+    }
+}
+console.log(count);

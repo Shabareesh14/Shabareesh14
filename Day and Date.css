@@ -1,0 +1,36 @@
+*{
+	box-sizing : border-box;
+	margin : 0px;
+	padding : 0px;
+}
+
+h1{
+	text-align : center;
+	font-size : 40px;
+}
+
+.days{
+	height:400px;
+	width:500px;
+	margin: 50px;
+	margin-left: 700px;
+	text-align : center;
+	background-color:yellow;
+}
+
+.days button{
+	margin-top: 350px;
+	gap:5px;
+	border-radius:15px;
+	padding:8px;
+	background-color:orange;
+	color:white;
+	font-size:16px;
+}
+
+.days p{
+	margin-bottom:70px;
+	margin-top:-210px;
+	font-size:24px;
+	font-weight:bold;
+}

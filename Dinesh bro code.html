@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MARKLIST</title>
+    <style>
+        #main {
+            margin: auto;
+            width: 450px;
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        #resultbox {
+            margin: auto;
+            width: max-content;
+            padding: 10px;
+            background-color: lightgreen;
+            margin-top: 20px;
+        }
+
+        #resultbox {}
+
+        button {
+            background: green;
+            border: 1px solid black;
+            border-radius: 3px;
+            height: 30px;
+            width: 60px;
+
+        }
+
+        input {
+
+            border-radius: 3px;
+            border: 1px solid black;
+            height: 20px;
+            width: 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <form action="">
+            <center>
+                <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">STUDENT MARKLIST</h1>
+                <table>
+                    <tr>
+                        <td><label for="tamil">Tamil</label></td>
+                        <td style="padding: 10px;"><input type="number" id="tamil" placeholder="Enter the Tamil mark"
+                                autofocus></td>
+                    </tr>
+                    <tr>
+                        <td><label for="english">English</label></td>
+                        <td style="padding: 10px;"><input type="number" id="english"
+                                placeholder="Enter the English mark"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="maths">Maths</label></td>
+                        <td style="padding: 10px;"><input type="number" id="maths" placeholder="Enter the Maths mark">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="science">Science</label></td>
+                        <td style="padding: 10px;"><input type="number" id="science"
+                                placeholder="Enter the Science mark"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="social">Social</label></td>
+                        <td style="padding: 10px;"><input type="number" id="social" placeholder="Enter the Social mark">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td><button type="submit" onclick="return total()"><strong>Total</strong></button></td>
+                        <td><button type="submit" onclick="return average()"
+                                style="width:70px;"><strong>Average</strong></button></td>
+                        <td><button type="reset"
+                                style="background:red;border:1px tomatto red;border-radius:3px;height:30px;width:60px;"><b>Reset</b></button>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <div id="resultbox">
+                <label for="">Total : </label>
+                <label for="" style="padding-left: 140px;">Average :</label><br>
+                <input type="text" id="resultTotal">
+                <input type="text" id="resultAverage"><br>
+                <label for="">Pass / Fail :</label>
+                <label for="" style="padding-left: 110px;">Grade :</label><br>
+                <input type="text" id="pof">
+                <input type="text" id="grade">
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function total() {
+            var a = Number(document.getElementById("tamil").value);
+            var b = Number(document.getElementById("english").value);
+            var c = Number(document.getElementById("maths").value);
+            var d = Number(document.getElementById("science").value);
+            var e = Number(document.getElementById("social").value);
+
+            var totalMark = a + b + c + d + e;
+
+            if (a > 100 || b > 100 || c > 100 || d > 100 || e > 100) {
+                alert("Pleace enter the correct mark");
+            }
+            else if (a < 0 || b < 0 || c < 0 || d < 0 || e < 0) {
+                alert("The mark number is negative. so, type correct mark");
+            }
+            else {
+                document.getElementById("resultTotal").value = totalMark;
+                if (a >= 35 && b >= 35 && c >= 35 && d >= 35 && e >= 35) {
+                    document.getElementById("pof").value = "pass";
+                }
+                else {
+                    document.getElementById("pof").value = "fail";
+                }
+                if (totalMark == 500) {
+                    document.getElementById("grade").value = "Exellant";
+                }
+                else if (totalMark <= 499 && totalMark >= 481) {
+                    document.getElementById("grade").value = "First class";
+                }
+                else if (totalMark <= 480 && totalMark >= 361) {
+                    document.getElementById("grade").value = "second class";
+                }
+                else if (totalMark <= 360 && totalMark >= 241) {
+                    document.getElementById("grade").value = "Third class";
+                }
+                else {
+                    document.getElementById("grade").value = "pass";
+                    return false;
+                }
+
+            }
+        }
+        function average() {
+            var a = Number(document.getElementById("tamil").value);
+            var b = Number(document.getElementById("english").value);
+            var c = Number(document.getElementById("maths").value);
+            var d = Number(document.getElementById("science").value);
+            var e = Number(document.getElementById("social").value);
+
+            var totalMark = a + b + c + d + e;
+
+            var ave = totalMark / 500 * 100;
+
+            if (a > 100 || b > 100 || c > 100 || d > 100 || e > 100) {
+                alert("Pleace enter the correct mark");
+            }
+            else if (a < 0 || b < 0 || c < 0 || d < 0 || e < 0) {
+                alert("The mark number is negative. so, type correct mark");
+            }
+            else {
+                document.getElementById("resultAverage").value = ave;
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

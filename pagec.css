@@ -1,0 +1,200 @@
+*{
+	margin:0;
+	padding:0;
+ }
+.blue{
+	height:800px;
+	width:100%;
+	background-color:81d4fa;
+	
+	
+	}
+.blue h4,h1{
+        padding:10px;
+	text-align:center;
+	color:white;
+	
+	}
+
+button{
+	border:2px solid;
+	border-radius:15px;
+	text-align:center;
+	padding:15px;
+	position:absolute;
+	left:45%;
+	background-color:81d4fa;
+	color:white;
+	}
+.inner{
+	height:600px;
+	width:75%;
+	position:absolute;
+	top:70%;
+	left:12.5%;
+	right:12.5%;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:white;
+	}
+.boxer{
+	height:300px;
+	width:33.1%;
+	border:1px solid #bdbdbd;
+	text-align:center;
+	}
+.heal{
+	height:50px;
+	width:100%;
+	position:relative;
+	position:fixed;
+	padding:16px;
+	color:white;
+	background-color:81d4fa;
+	z-index:3;
+	
+	}
+.mouse{
+	position:absolute;
+	top:180%;
+	text-align:center;
+	width:60%;
+	margin-left:20%;
+	line-height:1cm;
+	}
+.pic{
+	background-image:url("https://pixelarity.com/items/demos/visualize/cyan/images/pic01.jpg");
+	height:350px;
+	width:100%;
+	position:absolute;
+	top:230%;
+	}
+.mouse1{
+	position:absolute;
+	top:300%;
+	text-align:center;
+	width:60%;
+	margin-left:20%;
+	line-height:1cm;
+	}
+.number{
+	height:150px;
+	width:100%;
+	position:absolute;
+	top:330%;
+	display:flex;
+	padding:0 0 160px 0;
+	}
+.num{
+	height:150px;
+	width:20%;
+	border-right:1px solid;
+	}
+
+.mouse2{
+	position:absolute;
+	top:370%;
+	text-align:center;
+	width:100%;
+	line-height:1cm;
+	background-color:e0e0e0;
+	box-sizing:border-box;
+	padding:5% 20% 5% 20%;
+	}
+.bird{
+	height:450px;
+	width:100%;
+	position:absolute;
+	top:412.5%;
+	display:flex;
+	}
+.bird1{
+	height:450px;
+	width:50%;
+	background-image:url("https://pixelarity.com/items/demos/visualize/cyan/images/pic02.jpg");
+	margin-left:50px;
+	
+	}
+.bird2,.women2{
+	height:450px;
+	width:50%;
+	padding:15% 5% 15% 5%;
+	text-align:left;
+	box-sizing:border-box;
+	line-height:1cm;
+	}
+button1{
+	border:2px solid;
+	border-radius:15px;
+	text-align:left;
+	padding:15px;
+	background-color:81d4fa;
+	color:white;
+	}
+.man{
+	height:450px;
+	width:100%;
+	position:absolute;
+	top:482.5%;
+	display:flex;
+	}
+.man1{
+	height:450px;
+	width:50%;
+	padding:15% 5% 15% 5%;
+	text-align:left;
+	box-sizing:border-box;
+	line-height:1cm;
+	}
+.man2{
+	height:450px;
+	width:50%;
+	background-image:url("https://pixelarity.com/items/demos/visualize/cyan/images/pic03.jpg");
+	margin-left:40px;
+	
+	}
+.women{
+	height:450px;
+	width:100%;
+	position:absolute;
+	top:552.5%;
+	display:flex;
+	}
+.women1{
+	height:450px;
+	width:50%;
+	background-image:url("https://pixelarity.com/items/demos/visualize/cyan/images/pic04.jpg");
+	margin-left:50px;
+	
+	}
+.lap{
+	height:400px;
+	width:100%;
+	background-color:81d4fa;
+	position:absolute;
+	top:640%;
+	padding:12% 15% 12% 10%;
+	text-align:center;
+	box-sizing:border-box;
+	}
+input{
+	height:50px;
+	width:250px;
+	border-radius:35px 0 0 35px;
+	border:1px solid white;
+	background-color:81d4fa;
+	}
+button2{
+	border:2px solid;
+	border-radius:0 10px 10px 0;
+	border:1px solid white;
+	padding:15px;
+	background-color:white;
+	color:81d4fa;
+	position:absolute;
+	left:56.85%;
+	}
+::placeholder{
+	color:white;
+	padding-left:10px;
+	}

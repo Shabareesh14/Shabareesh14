@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+function sumEvenOdd(a,b){
+	let	evenSum = 0;
+	let	oddSum = 0;
+
+		if(a > b){
+		[a , b] = [b , a]
+}
+
+for(i=a;i<=b;i++){
+	if(i % 2 === 0){
+		evenSum += i;
+	}	
+
+	else{
+		oddSum += i;
+	}
+}
+return {
+    evenSum : evenSum,
+    oddSum:oddSum
+};
+}
+console.log(sumEvenOdd(4,8));
+	
+</script>
+
+</body>
+</html>
+

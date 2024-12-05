@@ -1,0 +1,88 @@
+<!Doctype.html>
+<html>	
+	<center>
+		<head>
+			<title>Personal Form</title>
+			<link rel="stylesheet" type="text/css" href="PF.css">
+		    	<h1 style=color:red;>Personal Information Form<h1>
+					<style>
+						body{
+							background-image:url("N2.jpg");
+							background-size: fixed;
+							background-position: 0%;
+							}
+					</style>
+		</head>			
+	</center>	
+		<body style=font-size:18px;>
+			<form class="f1" action="next.php" method="post">
+			<h3><u>General info</u></h3>
+			
+			<div class="fg">
+			<label>Name</label><br>
+			<input type="text" name="fname" placeholder="Firstname" autocomplete="on" autofocus>
+			<input type="text" name="lname" placeholder="Lastname" disabled><br><br>
+			</div>		
+
+			<div class="fg">
+			<label>Date of Birth</label><br>
+			<input type="date" name="date"  min="1" max="5"><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Gender</label><br>
+			<input type="checkbox" name="Gender">Male</checkbox>
+			<input type="checkbox" name="Gender">Female</checkbox>
+			<input type="button" readonly>Other <br><br>
+			</div>
+
+			<div class="fg">
+			<label>Hobbies</label>
+			<input type="radio" name="Hobbies">chess</radio>
+			<input type="radio" name="Hobbies">carrom</radio><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Martial status</label><br>
+			<input type="text" name="Mstatus" minlength="3"><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Nationality</label><br>
+			<input type="text" name="Ntly" pattern="[A-Z]"><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Address</label><br>
+			<input type="text" name="Address" placeholder="Street Address" required><br>
+			<input type="text" name="lAddress" placeholder="Addressline2"><br>
+			<input type="text" name="City" placeholder="City">
+			<input type="text" name="State" placeholder="State/region/province"><br>
+			<input type="zipcode" name="zipcode" placeholder="postal/zipcode" maxlength="6">
+			<select name="country">
+				<option>Country</option>
+				<option>India</option>
+				<option>China</option>
+				</select><br><br>
+			</div>
+
+			<div class="fg">
+			<label>E-mail Address</label><br>
+			<input type="text" name="mail" ><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Phone Number</label><br>
+			<input type="number" name="Phone" size="25"><br><br>
+			</div>
+
+			<div class="fg">
+			<label>Attch Resume</label><br>
+			<input type="file" name="atch" multiple><br><br>
+			</div>
+			
+		<center>  <button class="btn">Next</button> </center>
+			</form>	
+		
+		</body>
+</html> 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <script>
+        var secretNo = Math.floor(Math.random() * 100);
+        var count = 1;
+
+        function guessNumber() {
+            var userData = Number(document.getElementById("guessInput").value);
+            var message = '';
+
+            // Loop until the user guesses the correct number
+            for (; secretNo != userData; count++) {
+                if (secretNo > userData) {
+                    message = "Guess is Low";
+                } else if (secretNo < userData) {
+                    message = "Guess is High";
+                }
+                document.getElementById("result").innerHTML = message;
+                return; // Return to allow user to guess again
+            }
+
+            // If the user guesses correctly
+            document.getElementById("result").innerHTML = "Yes, You Won the Game in " + count + " attempts!";
+            document.getElementById("submitBtn").disabled = true; // Disable submit button after winning
+        }
+    </script>
+</head>
+<body>
+    <h1>Guess the Number Game</h1>
+    <p>Guess a number between 0 and 100:</p>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+    <button id="submitBtn" onclick="guessNumber()">Submit</button>
+
+    <p id="result"></p>
+</body>
+</html>
