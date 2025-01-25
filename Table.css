@@ -1,0 +1,203 @@
+.body_main{
+    border: 25px;
+    border-style: double;
+    border-color: rgb(132, 148, 189);
+    padding: 3%;
+    background-color: rgb(250,243,227);
+    margin:5% 21%;
+    height: 1200px;
+}
+
+.topline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.top1{
+    font-style: normal;
+    color: rgb(132,148,189);
+}
+
+.blu{
+    font-style: normal;
+    color: rgb(132,148,189);
+}
+
+h1.blu{
+    font-family:'UnifrakturMaguntia',cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.top3{
+    display: block;
+    text-align: center;
+}
+
+.row1{
+    color: rgb(132, 148, 189);
+    font-size: 14px;
+    margin:auto;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row2c1{
+    font-size: 15px;
+    color: rgb(132, 148, 189);
+    margin-left: 100px;
+}
+
+.row2c2{
+    font-size: 15px;
+    color: rgb(132, 148, 189);
+    margin-right: 100px;
+}
+
+.box{
+    border: 1px solid;
+    margin: 3px;
+    padding: 5px;
+    color: black;
+}
+
+.rwrap{
+    position: relative;
+}
+
+.r2{
+    position: absolute;
+    left:780px;
+    right: 250px;
+}
+
+.r1{
+    display: block;
+}
+
+.row3,.blu{
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+th{
+    color: rgb(132,148,189);
+    font-size: 15px;
+}
+
+.marks{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+td{
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gradescale{
+    border: 1px solid;
+    color: rgb(132, 148, 189);
+}
+
+.gradescale1{
+    border-collapse: collapse;
+}
+
+.result1{
+    margin: 0;
+    color: rgb(132, 148, 189);
+}
+
+.result2{
+    border: 1px solid;
+    color: rgb(132, 148, 189);
+    font-size: 12px;
+}
+
+.result2 td{
+    border: none;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    margin-top: -75px;
+    margin-bottom: -145px;
+}
+
+.seprator{
+    height: 50px;
+    width: 112%;
+    margin-top: -62px;
+    margin-left: -54px;
+    background-color:rgb(132,148,189);
+    opacity: 0.5;
+}
+
+.sign1{
+    text-align: center;
+}
+
+.sign2{
+    text-align: center;
+}
+
+.sign1 h3{
+    font-size: 22px; 
+}
+
+.sign1 img{
+    margin-top: 25px;
+}
+
+.sign2 h3{
+    font-size: 22px; 
+}
+
+.sign2 img{
+    margin-top: 25px;
+}
+
+.footer{
+    height: 190px;
+    width: 112%;
+    margin-top: 75px;
+    margin-left: -54px;
+    background-color: rgb(223, 218, 224);
+}
