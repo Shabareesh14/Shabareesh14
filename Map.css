@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0%; */
+    padding: 0%;
+    text-align: center;
+}
+
+body {
+    height: 200%;
+    background-image: linear-gradient(orange, white, green);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.tn {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    border: 1px solid;
+    height: 350px;
+    width: 250px;
+    background-color: aqua;
+}
+
+.tn:hover {
+    visibility: visible;
+}
+
+.kl {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.kl:hover {
+    visibility: visible;
+}
+
+.ap {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.ap:hover {
+    visibility: visible;
+}
+
+.kn {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.kn:hover {
+    visibility: visible;
+}
+
+.g {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.g:hover {
+    visibility: visible;
+}
+
+.lh {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.lh:hover {
+    visibility: visible;
+}
+
+.Jk {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.Jk:hover {
+    visibility: visible;
+}
+
+.hp {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.hp:hover {
+    visibility: visible;
+}
+
+.pjb {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.pjb:hover {
+    visibility: visible;
+}
+
+.hyn {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.hyn:hover {
+    visibility: visible;
+}
+
+.ukd {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.ukd:hover {
+    visibility: visible;
+}
+
+.rjn {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.rjn:hover {
+    visibility: visible;
+}
+
+.up {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.up:hover {
+    visibility: visible;
+}
+
+.del {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.del:hover {
+    visibility: visible;
+}
+
+.gjt {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.gjt:hover {
+    visibility: visible;
+}
+
+.mp {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.mp:hover {
+    visibility: visible;
+}
+
+.mra {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.mra:hover {
+    visibility: visible;
+}
+
+.tga {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.tga:hover {
+    visibility: visible;
+}
+
+.bhr {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.bhr:hover {
+    visibility: visible;
+}
+
+.jkd {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.jkd:hover {
+    visibility: visible;
+}
+
+.wb {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.wb:hover {
+    visibility: visible;
+}
+
+.mha {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.mha:hover {
+    visibility: visible;
+}
+
+.asm {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.asm:hover {
+    visibility: visible;
+}
+
+.od {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.od:hover {
+    visibility: visible;
+}
+
+.alp {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.alp:hover {
+    visibility: visible;
+}
+
+.nld {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.nld:hover {
+    visibility: visible;
+}
+
+.mip {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.mip:hover {
+    visibility: visible;
+}
+
+.mm {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.mm:hover {
+    visibility: visible;
+}
+
+.cgh {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.cgh:hover {
+    visibility: visible;
+}
+
+.Tp {
+    visibility: hidden;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+}
+
+.Tp:hover {
+    visibility: visible;
+}
